@@ -26,11 +26,11 @@ h1 {
 	animation-iteration-count: infinite;
 }
 @keyframes rainbow {
-	0% {color: #c29b6c; text-shadow: 2px 2px #c6b495;}
-	10% {color: #f4fcfb; text-shadow: 3px 3px #586c84;}
-	50% {color: #04233c; text-shadow: 4px 4px #04233c;}
-	90% {color: #586c84; text-shadow: 3px 3px #f4fcfb;} 
-	100% {color: #c6b495; text-shadow: 2px 2px #c29b6c;}
+	0% {color: #282424; text-shadow: 2px 2px #6E5773;}
+	10% {color: #455A64; text-shadow: 3px 3px #00ACC1;}
+	50% {color: #665F25; text-shadow: 4px 4px #665F25;}
+	90% {color: #00ACC1; text-shadow: 3px 3px #455A64;} 
+	100% {color: #6E5773; text-shadow: 2px 2px #282424;}
 
 }
 .buffer {
