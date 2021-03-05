@@ -1,0 +1,51 @@
+html, body {
+	width: 100%;
+	height: 100%;
+	background: url(img-8887.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover; 
+	-moz-background-size: cover; 
+	-o-background-size: cover; 
+	background-size: cover;
+	
+}
+.container {
+	display: flex;
+	justify-content: center
+}
+
+
+h1 {
+	font-family: 'DotGothic16', sans-serif;
+	font-weight: bold;
+	color: #bcbdbf;
+	font-size: 2.5rem;
+
+	letter-spacing: 10px;
+	animation-duration: 0.5s;
+	animation-name: rainbow;
+	animation-iteration-count: infinite;
+}
+@keyframes rainbow {
+	0% {color: #c29b6c; text-shadow: 2px 2px #c6b495;}
+	10% {color: #f4fcfb; text-shadow: 3px 3px #586c84;}
+	50% {color: #04233c; text-shadow: 4px 4px #04233c;}
+	90% {color: #586c84; text-shadow: 3px 3px #f4fcfb;} 
+	100% {color: #c6b495; text-shadow: 2px 2px #c29b6c;}
+
+}
+.buffer {
+	height: 20px;
+}
+
+.btn {
+	max-width: 130px;
+	border-radius: 20%;
+	background-color: cyan;
+	border-color: cyan;
+	color: black;
+	text-transform: uppercase;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+  
+ }
