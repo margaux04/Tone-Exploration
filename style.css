@@ -28,7 +28,7 @@ h1 {
 @keyframes rainbow {
 	0% {color: #282424; text-shadow: 2px 2px #6E5773;}
 	10% {color: #455A64; text-shadow: 3px 3px #00ACC1;}
-	50% {color: #665F25; text-shadow: 4px 4px #665F25;}
+	50% {color: #4DB6AC; text-shadow: 4px 4px #4DB6AC;}
 	90% {color: #00ACC1; text-shadow: 3px 3px #455A64;} 
 	100% {color: #6E5773; text-shadow: 2px 2px #282424;}
 
